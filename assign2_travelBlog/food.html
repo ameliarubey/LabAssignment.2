@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Australian Food</title>
+    <style>
+        .navbar
+        {
+            margin:0;
+            padding:0;
+            border: 50px solid #433878;
+            color:aliceblue;
+            text-align: center;
+            background-color:#433878;
+        }
+        body{
+            background-color: #7E60BF;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+            gap: 20px; /* Space between items */
+            text-align: center;
+            padding: 20px;
+        }
+        .grid-item {
+            background:#E4B1F0;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .grid-item img {
+            width: 100%; /* Makes the image responsive */
+            height: 150px; /* Fixed height for consistency */
+            object-fit: cover; /* Crops image to fit nicely */
+            border-radius: 8px;
+        }
+        .grid-item p {
+            margin-top: 10px;
+            font-weight: bold;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <h1>AUSTRALIAN DELICACIES</h1>
+    </header>
+    <div class="grid-container">
+        <div class="grid-item">
+            <img src="meat-pie.jpg" alt="Meat Pie">
+            <p>Meat Pie</p>
+        </div>
+        <div class="grid-item">
+            <img src="vegemite-toast.jpg" alt="Vegemite on Toast">
+            <p>Vegemite on Toast</p>
+        </div>
+        <div class="grid-item">
+            <img src="lamington.jpg" alt="Lamington">
+            <p>Lamington</p>
+        </div>
+        <div class="grid-item">
+            <img src="pavlova.jpg" alt="Pavlova">
+            <p>Pavlova</p>
+        </div>
+        <div class="grid-item">
+            <img src="tim-tams.jpg" alt="Tim Tams">
+            <p>Tim Tams</p>
+        </div>
+        <div class="grid-item">
+            <img src="anzac-biscuits.jpg" alt="ANZAC Biscuits">
+            <p>ANZAC Biscuits</p>
+        </div>
+    </div>
+
+</body>
+</html>

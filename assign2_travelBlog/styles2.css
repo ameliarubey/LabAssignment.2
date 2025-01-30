@@ -1,0 +1,57 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:beige;
+    color: #333;
+}
+.navbar
+{
+    border: 50px solid #FCF596;
+    background-color: #FCF596;
+    text-align: center;
+    
+}
+/* Gallery Section */
+.gallery {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.gallery h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Grid Container */
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Individual Gallery Items */
+.gallery-item {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.gallery-item p {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
